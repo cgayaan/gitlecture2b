@@ -12,3 +12,4 @@ print(names[0])
 coordinate = (10.0,20.0)
 # tuple is a pair of values, we can use these two values as a different humanity
 # a tuple is immutable, cannot add values to it
+print(coordinate[0])

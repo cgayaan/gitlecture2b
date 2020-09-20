@@ -1,4 +1,5 @@
 # Create an empty set
+# A set is a collection where no item appears twice
 s = set()
 
 #Add elements to the set

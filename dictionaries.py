@@ -8,3 +8,14 @@ houses["Hermoine"] = "Griffindor"
 # add values to the dictionary
 
 print(houses["Hermoine"])
+
+ages = {"Alice": 22, "Bob": 27}
+# dictionary to keep track of ages of people.
+# Dictionaries map keyes to values
+
+ages ["Charlie"] = 30
+# add name charlie to the dictionary and set the age
+ages ["Alice"] += 1
+# edit the age of Alice to be incremented by one
+# the longer way to write: ages ["Alice"] = ages["Alice"] + 1
+print(ages)
