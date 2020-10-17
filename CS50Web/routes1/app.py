@@ -14,4 +14,6 @@ def index():
 # when a user goes to a / any name, it will call the hello function
 # then pass the name value that the user typed in from the url
 def hello(name):
-    return f"Hello, {name}!"
+    name = name.capitalize()
+    # this funtion will capitalize the name that we type in the url
+    return f"<h1>Hello, {name}!<h1>"
