@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Is it All Saints?</title>
+    <style>
+      body{
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Jinja2's way of saying conditionally display content depending on the content that we pass into the template-->
+    {% if all_saints %}
+      <h1>Yes! Lets Celebrate All Saints!</h1>
+    {% else %}
+      <h1>NO</h1>
+    {% endif %}
+  </body>
+</html>
