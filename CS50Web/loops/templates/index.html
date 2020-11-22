@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Website!</title>
+  </head>
+  <body>
+      <h1>Names</h1>
+
+      <ul>
+        <!-- add for loop -->
+        <!-- loop over the names list and for each list item add a name from the names list -->
+        {% for name in names %}
+          <li>{{ name }}</li>
+        {% endfor %}
+      </ul>
+  </body>
+</html>
